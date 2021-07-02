@@ -1,0 +1,6 @@
+framework module Pods_Instagram_MVVMTests {
+  umbrella header "Pods-Instagram-MVVMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
