@@ -135,10 +135,11 @@
 		040CAC8F2676466600D2247D /* Instagram-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				047EAA212694DF40005BFF1E /* ViewControllers */,
+				047EAA202694DF28005BFF1E /* Views */,
 				045534632683673C009F0C2A /* ViewModels */,
 				0455345A26827D50009F0C2A /* Common */,
 				04335CA3267C031A00702A7E /* Service */,
-				040CACC32676487E00D2247D /* Scenes */,
 				040CACC02676486A00D2247D /* Models */,
 				040CAC902676466600D2247D /* AppDelegate.swift */,
 				040CAC942676466600D2247D /* MainTabBarController.swift */,
@@ -157,25 +158,6 @@
 				045534682683674C009F0C2A /* StoryModel.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		040CACC32676487E00D2247D /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				040CACC42676488A00D2247D /* HomeScene */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		040CACC42676488A00D2247D /* HomeScene */ = {
-			isa = PBXGroup;
-			children = (
-				040CACD12676B0B400D2247D /* SubViews */,
-				040CACC52676489F00D2247D /* HomeViewController.swift */,
-				040CACC7267648A600D2247D /* HomeView.swift */,
-				049A4C782681ECBA00FBC81C /* HomeDescriptionView.swift */,
-			);
-			path = HomeScene;
 			sourceTree = "<group>";
 		};
 		040CACD12676B0B400D2247D /* SubViews */ = {
@@ -212,6 +194,24 @@
 				045534642683673C009F0C2A /* PostViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		047EAA202694DF28005BFF1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040CACD12676B0B400D2247D /* SubViews */,
+				040CACC7267648A600D2247D /* HomeView.swift */,
+				049A4C782681ECBA00FBC81C /* HomeDescriptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047EAA212694DF40005BFF1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				040CACC52676489F00D2247D /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		8B98BC2AE3831C3F53AA6CD4 /* Pods */ = {
