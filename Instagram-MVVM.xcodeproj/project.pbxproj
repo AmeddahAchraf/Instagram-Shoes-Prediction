@@ -10,8 +10,6 @@
 		040CAC912676466600D2247D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CAC902676466600D2247D /* AppDelegate.swift */; };
 		040CAC952676466600D2247D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CAC942676466600D2247D /* MainTabBarController.swift */; };
 		040CAC9A2676466700D2247D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CAC992676466700D2247D /* Assets.xcassets */; };
-		040CACA82676466700D2247D /* Instagram_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CACA72676466700D2247D /* Instagram_MVVMTests.swift */; };
-		040CACB32676466700D2247D /* Instagram_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CACB22676466700D2247D /* Instagram_MVVMUITests.swift */; };
 		040CACC62676489F00D2247D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CACC52676489F00D2247D /* HomeViewController.swift */; };
 		040CACC8267648A600D2247D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CACC7267648A600D2247D /* HomeView.swift */; };
 		040CACCC26764D4C00D2247D /* HomeViewStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CACCB26764D4C00D2247D /* HomeViewStoryCell.swift */; };
@@ -57,11 +55,7 @@
 		040CAC992676466700D2247D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040CAC9E2676466700D2247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040CACA32676466700D2247D /* Instagram-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		040CACA72676466700D2247D /* Instagram_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_MVVMTests.swift; sourceTree = "<group>"; };
-		040CACA92676466700D2247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040CACAE2676466700D2247D /* Instagram-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		040CACB22676466700D2247D /* Instagram_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_MVVMUITests.swift; sourceTree = "<group>"; };
-		040CACB42676466700D2247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040CACC52676489F00D2247D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		040CACC7267648A600D2247D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		040CACCB26764D4C00D2247D /* HomeViewStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewStoryCell.swift; sourceTree = "<group>"; };
@@ -122,8 +116,6 @@
 			children = (
 				0455345D2682851F009F0C2A /* GoogleService-Info.plist */,
 				040CAC8F2676466600D2247D /* Instagram-MVVM */,
-				040CACA62676466700D2247D /* Instagram-MVVMTests */,
-				040CACB12676466700D2247D /* Instagram-MVVMUITests */,
 				040CAC8E2676466600D2247D /* Products */,
 				8B98BC2AE3831C3F53AA6CD4 /* Pods */,
 				9867A43C40F94557A832C412 /* Frameworks */,
@@ -154,24 +146,6 @@
 				040CAC9E2676466700D2247D /* Info.plist */,
 			);
 			path = "Instagram-MVVM";
-			sourceTree = "<group>";
-		};
-		040CACA62676466700D2247D /* Instagram-MVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				040CACA72676466700D2247D /* Instagram_MVVMTests.swift */,
-				040CACA92676466700D2247D /* Info.plist */,
-			);
-			path = "Instagram-MVVMTests";
-			sourceTree = "<group>";
-		};
-		040CACB12676466700D2247D /* Instagram-MVVMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				040CACB22676466700D2247D /* Instagram_MVVMUITests.swift */,
-				040CACB42676466700D2247D /* Info.plist */,
-			);
-			path = "Instagram-MVVMUITests";
 			sourceTree = "<group>";
 		};
 		040CACC02676486A00D2247D /* Models */ = {
@@ -524,7 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CACA82676466700D2247D /* Instagram_MVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +505,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CACB32676466700D2247D /* Instagram_MVVMUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
