@@ -2,7 +2,10 @@
 
 ## Project Scope
 
-The idea of this project is to build an application that can merge social media with e-commerce in order to create a great shopping experience for users. We will use machine learning to retrieve features from an Instagram image. Send it to an API that has a deployed model to do the classification and return the data to the user. The diagram 1.1 describes the project summary functions. First, the mobile application will get the data from the database, once the user decides to retrieve information about a product, the mobile application will send the image to the API in order to classify it.
+The idea of this project is to build an application that can merge social media with e-commerce in order to create a great shopping experience for users. We will use machine learning to retrieve features from an Instagram image. Send it to an API that has a deployed model to do the classification and return the data to the user. First, the mobile application will get the data from the database, once the user decides to retrieve information about a product, the mobile application will send the image to the API in order to classify it.
+
+This project is divided into multiple services:
+
 1. Machine Learning Model that classifies a given image.
 2. Python Flask application to serve the ML Model as an API.
 3. This iOS application that provides a graphical interface for the user. 
